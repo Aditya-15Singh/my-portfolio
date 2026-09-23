@@ -4,143 +4,285 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aditya Singh is a full-stack developer and BCA graduate building modern, scalable web applications." />
   <title>Aditya Singh | Full-Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 
 <body>
-  <header id="hero">
-    <div class="overlay"></div>
-    <div class="hero-content">
-      <img src="images/profile.jpeg" alt="Aditya Singh" class="profile-img" />
-      <h1>Aditya Singh</h1>
-      <p class="tagline">BCA Student | Full-Stack Developer</p>
-    </div>
-  </header>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="brand">A<span>S</span></div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="resume-btn" href="#contact">Hire Me</a>
+    </header>
 
-  <nav class="nav">
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#education">Education</a>
-    <a href="#certifications">Certifications</a>
-    <a href="#hobbies">Hobbies</a>
-    <a href="#contact">Contact</a>
-  </nav>
+    <main>
+      <section class="hero reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">Full-Stack Developer • BCA Graduate</p>
+          <h1>Aditya <span>Singh</span></h1>
+          <p class="headline">
+            I design and build modern web experiences with strong backend foundations,
+            clean architecture, and user-first thinking.
+          </p>
+          <div class="contact-row">
+            <a href="tel:+919696084002">+91 96960 84002</a>
+            <a href="mailto:singhaditya123my@gmail.com">singhaditya123my@gmail.com</a>
+            <a href="https://www.linkedin.com/in/aditya-singh-012756213" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+          <div class="cta-row">
+            <a href="#projects" class="primary-btn">View Projects</a>
+            <a href="#about" class="secondary-btn">About Me</a>
+          </div>
+        </div>
 
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I’m Aditya Singh, a passionate full-stack developer currently pursuing my BCA from GNIOT. I love building
-        efficient backend systems and exploring new technologies to solve real-world problems. I'm also a strategic
-        thinker who enjoys playing chess in my free time.
-      </p>
-    </section>
+        <div class="hero-panel">
+          <div class="profile-card">
+            <img src="images/profile.jpeg" alt="Aditya Singh" />
+            <div class="profile-badge">Available for opportunities</div>
+          </div>
+        </div>
+      </section>
 
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul class="skills-list">
-        <li>Java</li>
-        <li>C / C++</li>
-        <li>MySQL</li>
-        <li>HTML, CSS, JavaScript</li>
-        <li>JDBC</li>
-        <li>Hibernate</li>
-        <li>Maven</li>
-        <li>Spring Boot</li>
-        <li>Python</li>
-        <li>Eclipse</li>
-        <li>C Programming</li>
-      </ul>
-    </section>
+      <section class="stats reveal">
+        <div class="stat-card">
+          <strong>2+</strong>
+          <span>Years Learning & Building</span>
+        </div>
+        <div class="stat-card">
+          <strong>6+</strong>
+          <span>Core Tech Skills</span>
+        </div>
+        <div class="stat-card">
+          <strong>5+</strong>
+          <span>Projects & Demos</span>
+        </div>
+        <div class="stat-card">
+          <strong>100%</strong>
+          <span>Driven to Grow</span>
+        </div>
+      </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="project">
-        <h3>Career Skill Gap Analysis Platform (AI-Powered Full-Stack Application)</h3>
-        <p><strong>Tech Stack:</strong> Java, Spring Boot, JWT Security, MySQL, Docker, REST APIs</p>
-        <p><strong>Role:</strong> Full-Stack Developer</p>
-        <ul style="margin-top: 10px; margin-bottom: 10px; padding-left: 20px;">
-          <li>Built an AI-driven platform to analyze user skills against industry role requirements</li>
-          <li>Designed secure backend services with JWT authentication and RESTful APIs</li>
-          <li>Implemented weighted gap-analysis algorithm to prioritize missing skills</li>
-          <li>Developed interactive dashboards for analytics and progress tracking</li>
-          <li>Deployed full system using Docker, Netlify (frontend), and Render (backend)</li>
+      <section id="about" class="content-section reveal">
+        <div class="section-heading">
+          <p class="section-tag">About</p>
+          <h2>Professional Summary</h2>
+        </div>
+        <div class="about-grid">
+          <p>
+            Final-year BCA graduate with hands-on experience building and deploying full-stack applications using
+            Spring Boot, REST APIs, and MySQL. I am a passionate developer focused on creating secure, scalable,
+            and user-centric digital products.
+          </p>
+          <p>
+            My work combines backend logic, clean APIs, and frontend usability. I enjoy solving real-world challenges,
+            learning modern tools, and contributing to software that creates measurable impact.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="content-section reveal">
+        <div class="section-heading">
+          <p class="section-tag">Core Stack</p>
+          <h2>Technical Skills</h2>
+        </div>
+
+        <div class="skills-layout">
+          <div class="skill-group">
+            <h3>Languages</h3>
+            <div class="pill-group">
+              <span>Java</span>
+              <span>Python</span>
+              <span>JavaScript</span>
+              <span>C</span>
+              <span>C++</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3>Backend</h3>
+            <div class="pill-group">
+              <span>Spring Boot</span>
+              <span>REST API</span>
+              <span>JWT</span>
+              <span>Hibernate</span>
+              <span>JDBC</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3>Frontend</h3>
+            <div class="pill-group">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Responsive UI</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3>Database & Tools</h3>
+            <div class="pill-group">
+              <span>MySQL</span>
+              <span>Docker</span>
+              <span>GitHub</span>
+              <span>Postman</span>
+              <span>Render</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="content-section reveal">
+        <div class="section-heading">
+          <p class="section-tag">Work</p>
+          <h2>Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card featured">
+            <div class="project-topline">
+              <span class="project-type">Full-Stack App</span>
+              <span class="project-year">2024 - 2025</span>
+            </div>
+            <h3>Career Skill Gap Analysis Platform</h3>
+            <p class="project-stack">React | Spring Boot | JWT | MySQL | Docker</p>
+            <ul>
+              <li>Architected and delivered an end-to-end AI-driven career guidance platform.</li>
+              <li>Built weighted skill-gap analysis to identify missing competencies and suggest learning roadmaps.</li>
+              <li>Implemented JWT-based secure access control and role-based API protection.</li>
+              <li>Deployed using Docker, Render, and Netlify for scalable delivery.</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://lnkd.in/ghMG8Hnx" target="_blank" rel="noreferrer">Live Demo</a>
+              <a href="https://lnkd.in/g8QGdW9d" target="_blank" rel="noreferrer">Backend API</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-type">Java App</span>
+              <span class="project-year">2024</span>
+            </div>
+            <h3>Journal Management Application</h3>
+            <p class="project-stack">Java | Spring Boot | MySQL | REST API</p>
+            <ul>
+              <li>Created a secure journal manager with CRUD functionality.</li>
+              <li>Designed APIs for creating, updating, and deleting records.</li>
+              <li>Focused on reliability, input validation, and clean user workflows.</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-type">Web Portfolio</span>
+              <span class="project-year">2023</span>
+            </div>
+            <h3>Personal Portfolio Website</h3>
+            <p class="project-stack">HTML5 | CSS3 | JavaScript | GitHub Pages</p>
+            <ul>
+              <li>Built a responsive portfolio showcasing projects, skills, and experience.</li>
+              <li>Used clean interactions and a mobile-friendly layout.</li>
+              <li>Published and maintained the site on GitHub Pages.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="education" class="content-section reveal">
+        <div class="section-heading">
+          <p class="section-tag">Education</p>
+          <h2>Academic Background</h2>
+        </div>
+
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <span>2023 - 2026</span>
+          </div>
+          <p class="timeline-sub">GNIOT Institute of Professional Studies, Greater Noida</p>
+          <p>Completed BCA with a strong focus on software development, application design, and practical project work.</p>
+        </div>
+
+        <div class="education-mini">
+          <div class="mini-card">
+            <h4>Senior Secondary — Class XII (CBSE)</h4>
+            <p>Happy Model School, Varanasi</p>
+            <span>Score: 88%</span>
+          </div>
+          <div class="mini-card">
+            <h4>Secondary — Class X (CBSE)</h4>
+            <p>Happy Model School, Varanasi</p>
+            <span>Score: 92%</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications" class="content-section reveal">
+        <div class="section-heading">
+          <p class="section-tag">Credentials</p>
+          <h2>Certifications</h2>
+        </div>
+        <ul class="cert-list">
+          <li>Software Engineering Job Simulation — JPMorganChase</li>
+          <li>Python Programming — IIT Kanpur</li>
+          <li>Java Programming — NPTEL</li>
         </ul>
-        <p><strong>Core Logic:</strong> Weighted skill gap algorithm with roadmap sequencing</p>
-        <p style="margin-top: 10px;">
-          <a href="https://lnkd.in/ghMG8Hnx" target="_blank" style="color: #00bfa6; text-decoration: none;">🔗 Live
-            Demo</a> |
-          <a href="https://lnkd.in/g8QGdW9d" target="_blank" style="color: #00bfa6; text-decoration: none;">🔗 Backend
-            API</a>
-        </p>
-      </div>
-      <div class="project">
-        <h3>HibernateAlineApp</h3>
-        <p>Hibernate-based app demonstrating object-relational mapping and data persistence.</p>
-      </div>
-      <div class="project">
-        <h3>JDBCMySQLDemo</h3>
-        <p>Connects Java with MySQL using JDBC for full CRUD operations.</p>
-      </div>
-      <div class="project">
-        <h3>journalApp</h3>
-        <p>Spring Boot journal manager to create and edit daily entries.</p>
-      </div>
-      <div class="project">
-        <h3>StudentCRUDApp</h3>
-        <p>Student management system with CRUD features using JDBC/Hibernate.</p>
-      </div>
+      </section>
 
-    </section>
+      <section class="content-section reveal">
+        <div class="section-heading">
+          <p class="section-tag">Highlights</p>
+          <h2>Achievements & Highlights</h2>
+        </div>
+        <ul class="achievement-list">
+          <li>Independently designed, built, and deployed multiple full-stack applications from scratch.</li>
+          <li>Earned dual NPTEL certificates in C and Python from IIT Kanpur.</li>
+          <li>Achieved 92% in Class X and 88% in Class XII, reflecting consistent academic performance.</li>
+          <li>Strong communication skills with a focus on technical documentation and collaboration.</li>
+        </ul>
+      </section>
 
-    <section id="education">
-      <h2>Education</h2>
-      <p>Bachelor of Computer Applications (BCA)<br />
-        GNIOT Institute of Professional Technology<br />
-        2023 – 2026</p>
-    </section>
-    <section id="experience">
-      <h2>Experience</h2>
-      <div class="experience-item">
-        <h3>Frontend Web Development Intern</h3>
-        <p><strong>Company:</strong> CODTECH IT SOLUTIONS PVT. LTD.</p>
-        <p><strong>Duration:</strong> July – September 2025 (8 Weeks)</p>
-        <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, UI Design</p>
-        <p>
-          Enhancing frontend development skills and UI design fundamentals through hands-on projects and mentorship
-          during this 8-week remote internship.
-        </p>
-      </div>
-    </section>
+      <section id="contact" class="content-section reveal">
+        <div class="section-heading">
+          <p class="section-tag">Connect</p>
+          <h2>Contact</h2>
+        </div>
 
-    <section id="certifications">
-      <h2>Certifications</h2>
-      <ul>
-        <li>Certificate in C Programming – IIT Kanpur</li>
-        <li>Certificate in Python – IIT Kanpur</li>
-        <li>Java Programming – NPTEL (Ongoing)</li>
-      </ul>
-    </section>
+        <div class="contact-card">
+          <div>
+            <p>Email</p>
+            <a href="mailto:singhaditya123my@gmail.com">singhaditya123my@gmail.com</a>
+          </div>
+          <div>
+            <p>Phone</p>
+            <a href="tel:+919696084002">+91 96960 84002</a>
+          </div>
+          <div>
+            <p>LinkedIn</p>
+            <a href="https://www.linkedin.com/in/aditya-singh-012756213" target="_blank" rel="noreferrer">View Profile</a>
+          </div>
+        </div>
+      </section>
+    </main>
 
-    <section id="hobbies">
-      <h2>Hobbies & Interests</h2>
-      <p>Playing Chess, Football, Cricket</p>
-    </section>
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Aditya Singh. All rights reserved.</p>
+    </footer>
+  </div>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: singhaditya123my@gmail.com</p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/aditya-singh-012756213" target="_blank">View Profile</a></p>
-      <p>Phone: 9696084002</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 Aditya Singh. All rights reserved.</p>
-  </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
